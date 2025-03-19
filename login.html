@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타벅스 로그인</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>로그인</h1>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="text" id="username" placeholder="아이디" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" placeholder="비밀번호" required>
+                </div>
+                <div class="remember-me">
+                    <label>
+                        <input type="checkbox" id="remember"> 아이디 저장
+                    </label>
+                    <a href="#" class="forgot-password">비밀번호 찾기</a>
+                </div>
+                <button type="submit" class="login-btn">로그인</button>
+                <div class="signup-link">
+                    계정이 없으신가요? <a href="#" id="signupLink">회원가입</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html> 
